@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:ModularDemo/ModularDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:IPLookupUI/IPLookupUI.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:IPLookupService/IPLookupService.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LoggingDecorator/LoggingDecorator.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:ZContainer/ZContainer.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:Configuration"
+      name = "Configuration">
+      <FileRef
+         location = "group:Debug.xcconfig">
+      </FileRef>
+      <FileRef
+         location = "group:Release.xcconfig">
+      </FileRef>
+      <FileRef
+         location = "group:Shared.xcconfig">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:LICENSE.md">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,19 @@
+//
+//  Debug.xcconfig
+//  ModularDemo
+//
+//  Created by Oliver Eikemeier on 27.07.15.
+//  Copyright © 2015 Zalando SE. All rights reserved.
+//
+
+#include "Shared.xcconfig"
+
+CURRENT_PROJECT_VERSION = 0.1;
+DEBUG_INFORMATION_FORMAT = dwarf;
+ENABLE_TESTABILITY = YES;
+GCC_OPTIMIZATION_LEVEL = 0;
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1 $(inherited);
+MTL_ENABLE_DEBUG_INFO = YES;
+ONLY_ACTIVE_ARCH = YES;
+OTHER_SWIFT_FLAGS = -DDEBUG $(inherited);
+SWIFT_OPTIMIZATION_LEVEL = -Onone;

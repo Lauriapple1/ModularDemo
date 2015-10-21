@@ -1,0 +1,16 @@
+//
+//  Release.xcconfig
+//  ModularDemo
+//
+//  Created by Oliver Eikemeier on 27.07.15.
+//  Copyright © 2015 Zalando SE. All rights reserved.
+//
+
+#include "Shared.xcconfig"
+
+CURRENT_PROJECT_VERSION = 0.1.$(XCS_INTEGRATION_NUMBER);
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym;
+ENABLE_NS_ASSERTIONS = NO;
+MTL_ENABLE_DEBUG_INFO = NO;
+SWIFT_OPTIMIZATION_LEVEL = -Owholemodule;
+VALIDATE_PRODUCT = YES;

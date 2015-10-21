@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D72F3E21BB6D59800815B7D /* IPLookupService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D72F3E11BB6D59800815B7D /* IPLookupService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D72F4161BB6DA0F00815B7D /* ZContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D72F4151BB6DA0F00815B7D /* ZContainer.framework */; };
+		2D72F42E1BB6E06400815B7D /* IPLookupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72F42D1BB6E06400815B7D /* IPLookupService.swift */; };
+		2D72F4561BB70DAA00815B7D /* IPLookupService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D72F44C1BB70DAA00815B7D /* IPLookupService.framework */; };
+		2D72F4651BB70F9D00815B7D /* IPLookupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D72F42D1BB6E06400815B7D /* IPLookupService.swift */; };
+		2DA7D98A1BD41E120084AE5F /* ZContainer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA7D9891BD41E120084AE5F /* ZContainer.framework */; };
+		2DA7D98B1BD4CBF90084AE5F /* IPLookupService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D72F3E11BB6D59800815B7D /* IPLookupService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DF775771BB9B1D900F2F5D7 /* IPLookupServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF775761BB9B1D900F2F5D7 /* IPLookupServiceTests.swift */; };
+		2DF775791BB9B1DA00F2F5D7 /* IPLookupService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D72F3DE1BB6D59800815B7D /* IPLookupService.framework */; };
+		2DF7757F1BB9B1F200F2F5D7 /* IPLookupServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF775761BB9B1D900F2F5D7 /* IPLookupServiceTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D72F4571BB70DAA00815B7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D72F3D51BB6D59800815B7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D72F44B1BB70DAA00815B7D;
+			remoteInfo = IPLookupServiceX;
+		};
+		2DF7757A1BB9B1DA00F2F5D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D72F3D51BB6D59800815B7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D72F3DD1BB6D59800815B7D;
+			remoteInfo = IPLookupService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D72F3DE1BB6D59800815B7D /* IPLookupService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IPLookupService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D72F3E11BB6D59800815B7D /* IPLookupService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IPLookupService.h; sourceTree = "<group>"; };
+		2D72F3E31BB6D59800815B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D72F3EB1BB6D6AB00815B7D /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		2D72F3EC1BB6D6AB00815B7D /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		2D72F4151BB6DA0F00815B7D /* ZContainer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZContainer.framework; sourceTree = "<group>"; };
+		2D72F42D1BB6E06400815B7D /* IPLookupService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPLookupService.swift; sourceTree = "<group>"; };
+		2D72F4451BB7082E00815B7D /* ZContainerX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZContainerX.framework; sourceTree = "<group>"; };
+		2D72F44C1BB70DAA00815B7D /* IPLookupService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IPLookupService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D72F4551BB70DAA00815B7D /* IPLookupServiceTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IPLookupServiceTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D72F4631BB70DCD00815B7D /* ZContainerX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZContainerX.framework; sourceTree = "<group>"; };
+		2DA7D9891BD41E120084AE5F /* ZContainer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZContainer.framework; path = ../../../ZContainer/build/Debug/ZContainer.framework; sourceTree = "<group>"; };
+		2DF775741BB9B1D900F2F5D7 /* IPLookupServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPLookupServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF775761BB9B1D900F2F5D7 /* IPLookupServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPLookupServiceTests.swift; sourceTree = "<group>"; };
+		2DF775781BB9B1DA00F2F5D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D72F3DA1BB6D59800815B7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D72F4161BB6DA0F00815B7D /* ZContainer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D72F4481BB70DAA00815B7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA7D98A1BD41E120084AE5F /* ZContainer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D72F4521BB70DAA00815B7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D72F4561BB70DAA00815B7D /* IPLookupService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF775711BB9B1D900F2F5D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF775791BB9B1DA00F2F5D7 /* IPLookupService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D72F3D41BB6D59800815B7D = {
+			isa = PBXGroup;
+			children = (
+				2D72F3E01BB6D59800815B7D /* IPLookupService */,
+				2DF775751BB9B1D900F2F5D7 /* IPLookupServiceTests */,
+				2D72F4171BB6DA1B00815B7D /* Frameworks */,
+				2D72F3EE1BB6D6AB00815B7D /* Configuration */,
+				2D72F3DF1BB6D59800815B7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D72F3DF1BB6D59800815B7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D72F3DE1BB6D59800815B7D /* IPLookupService.framework */,
+				2D72F44C1BB70DAA00815B7D /* IPLookupService.framework */,
+				2D72F4551BB70DAA00815B7D /* IPLookupServiceTests-OSX.xctest */,
+				2DF775741BB9B1D900F2F5D7 /* IPLookupServiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D72F3E01BB6D59800815B7D /* IPLookupService */ = {
+			isa = PBXGroup;
+			children = (
+				2D72F42D1BB6E06400815B7D /* IPLookupService.swift */,
+				2D72F3E11BB6D59800815B7D /* IPLookupService.h */,
+				2D72F3E31BB6D59800815B7D /* Info.plist */,
+			);
+			path = IPLookupService;
+			sourceTree = "<group>";
+		};
+		2D72F3EE1BB6D6AB00815B7D /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2D72F3EB1BB6D6AB00815B7D /* Debug.xcconfig */,
+				2D72F3EC1BB6D6AB00815B7D /* Release.xcconfig */,
+			);
+			name = Configuration;
+			path = ../Configuration;
+			sourceTree = SOURCE_ROOT;
+		};
+		2D72F4171BB6DA1B00815B7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DA7D9891BD41E120084AE5F /* ZContainer.framework */,
+				2D72F4631BB70DCD00815B7D /* ZContainerX.framework */,
+				2D72F4451BB7082E00815B7D /* ZContainerX.framework */,
+				2D72F4151BB6DA0F00815B7D /* ZContainer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DF775751BB9B1D900F2F5D7 /* IPLookupServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DF775761BB9B1D900F2F5D7 /* IPLookupServiceTests.swift */,
+				2DF775781BB9B1DA00F2F5D7 /* Info.plist */,
+			);
+			path = IPLookupServiceTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D72F3DB1BB6D59800815B7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D72F3E21BB6D59800815B7D /* IPLookupService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D72F4491BB70DAA00815B7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DA7D98B1BD4CBF90084AE5F /* IPLookupService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D72F3DD1BB6D59800815B7D /* IPLookupService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D72F3E61BB6D59800815B7D /* Build configuration list for PBXNativeTarget "IPLookupService" */;
+			buildPhases = (
+				2D72F3D91BB6D59800815B7D /* Sources */,
+				2D72F3DA1BB6D59800815B7D /* Frameworks */,
+				2D72F3DB1BB6D59800815B7D /* Headers */,
+				2D72F3DC1BB6D59800815B7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPLookupService;
+			productName = IPLookupService;
+			productReference = 2D72F3DE1BB6D59800815B7D /* IPLookupService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D72F44B1BB70DAA00815B7D /* IPLookupService-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D72F45D1BB70DAA00815B7D /* Build configuration list for PBXNativeTarget "IPLookupService-OSX" */;
+			buildPhases = (
+				2D72F4471BB70DAA00815B7D /* Sources */,
+				2D72F4481BB70DAA00815B7D /* Frameworks */,
+				2D72F4491BB70DAA00815B7D /* Headers */,
+				2D72F44A1BB70DAA00815B7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IPLookupService-OSX";
+			productName = IPLookupServiceX;
+			productReference = 2D72F44C1BB70DAA00815B7D /* IPLookupService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D72F4541BB70DAA00815B7D /* IPLookupServiceTests-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D72F4601BB70DAA00815B7D /* Build configuration list for PBXNativeTarget "IPLookupServiceTests-OSX" */;
+			buildPhases = (
+				2D72F4511BB70DAA00815B7D /* Sources */,
+				2D72F4521BB70DAA00815B7D /* Frameworks */,
+				2D72F4531BB70DAA00815B7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D72F4581BB70DAA00815B7D /* PBXTargetDependency */,
+			);
+			name = "IPLookupServiceTests-OSX";
+			productName = IPLookupServiceXTests;
+			productReference = 2D72F4551BB70DAA00815B7D /* IPLookupServiceTests-OSX.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DF775731BB9B1D900F2F5D7 /* IPLookupServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF7757E1BB9B1DA00F2F5D7 /* Build configuration list for PBXNativeTarget "IPLookupServiceTests" */;
+			buildPhases = (
+				2DF775701BB9B1D900F2F5D7 /* Sources */,
+				2DF775711BB9B1D900F2F5D7 /* Frameworks */,
+				2DF775721BB9B1D900F2F5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DF7757B1BB9B1DA00F2F5D7 /* PBXTargetDependency */,
+			);
+			name = IPLookupServiceTests;
+			productName = IPLookupServiceTests;
+			productReference = 2DF775741BB9B1D900F2F5D7 /* IPLookupServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D72F3D51BB6D59800815B7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Zalando SE";
+				TargetAttributes = {
+					2D72F3DD1BB6D59800815B7D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2D72F44B1BB70DAA00815B7D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2D72F4541BB70DAA00815B7D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2DF775731BB9B1D900F2F5D7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 2D72F3D81BB6D59800815B7D /* Build configuration list for PBXProject "IPLookupService" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D72F3D41BB6D59800815B7D;
+			productRefGroup = 2D72F3DF1BB6D59800815B7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D72F3DD1BB6D59800815B7D /* IPLookupService */,
+				2D72F44B1BB70DAA00815B7D /* IPLookupService-OSX */,
+				2DF775731BB9B1D900F2F5D7 /* IPLookupServiceTests */,
+				2D72F4541BB70DAA00815B7D /* IPLookupServiceTests-OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D72F3DC1BB6D59800815B7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D72F44A1BB70DAA00815B7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D72F4531BB70DAA00815B7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF775721BB9B1D900F2F5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D72F3D91BB6D59800815B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D72F42E1BB6E06400815B7D /* IPLookupService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D72F4471BB70DAA00815B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D72F4651BB70F9D00815B7D /* IPLookupService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D72F4511BB70DAA00815B7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF7757F1BB9B1F200F2F5D7 /* IPLookupServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF775701BB9B1D900F2F5D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF775771BB9B1D900F2F5D7 /* IPLookupServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D72F4581BB70DAA00815B7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D72F44B1BB70DAA00815B7D /* IPLookupService-OSX */;
+			targetProxy = 2D72F4571BB70DAA00815B7D /* PBXContainerItemProxy */;
+		};
+		2DF7757B1BB9B1DA00F2F5D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D72F3DD1BB6D59800815B7D /* IPLookupService */;
+			targetProxy = 2DF7757A1BB9B1DA00F2F5D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D72F3E41BB6D59800815B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D72F3EB1BB6D6AB00815B7D /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2D72F3E51BB6D59800815B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D72F3EC1BB6D6AB00815B7D /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		2D72F3E71BB6D59800815B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IPLookupService/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.IPLookupService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2D72F3E81BB6D59800815B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = IPLookupService/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.IPLookupService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2D72F45E1BB70DAA00815B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = IPLookupService/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.IPLookupService;
+				PRODUCT_NAME = IPLookupService;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2D72F45F1BB70DAA00815B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = IPLookupService/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.IPLookupService;
+				PRODUCT_NAME = IPLookupService;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2D72F4611BB70DAA00815B7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IPLookupServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.IPLookupServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2D72F4621BB70DAA00815B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IPLookupServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.IPLookupServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2DF7757C1BB9B1DA00F2F5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IPLookupServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.IPLookupServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DF7757D1BB9B1DA00F2F5D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IPLookupServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.zalando.IPLookupServiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D72F3D81BB6D59800815B7D /* Build configuration list for PBXProject "IPLookupService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D72F3E41BB6D59800815B7D /* Debug */,
+				2D72F3E51BB6D59800815B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D72F3E61BB6D59800815B7D /* Build configuration list for PBXNativeTarget "IPLookupService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D72F3E71BB6D59800815B7D /* Debug */,
+				2D72F3E81BB6D59800815B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D72F45D1BB70DAA00815B7D /* Build configuration list for PBXNativeTarget "IPLookupService-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D72F45E1BB70DAA00815B7D /* Debug */,
+				2D72F45F1BB70DAA00815B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D72F4601BB70DAA00815B7D /* Build configuration list for PBXNativeTarget "IPLookupServiceTests-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D72F4611BB70DAA00815B7D /* Debug */,
+				2D72F4621BB70DAA00815B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF7757E1BB9B1DA00F2F5D7 /* Build configuration list for PBXNativeTarget "IPLookupServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF7757C1BB9B1DA00F2F5D7 /* Debug */,
+				2DF7757D1BB9B1DA00F2F5D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D72F3D51BB6D59800815B7D /* Project object */;
+}

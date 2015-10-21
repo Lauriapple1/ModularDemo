@@ -1,0 +1,19 @@
+/* 
+  IPLookup.strings
+  IPLookupUI
+
+  Created by Oliver Eikemeier on 26.09.15.
+  Copyright © 2015 Zalando SE. All rights reserved.
+*/
+
+/* Lookup pending */
+"Please wait" = "Bitte warten";
+
+/* IP label */
+"Your IP is: %1$@" = "Deine IP ist: %1$@";
+
+/* Timeout */
+"Timeout" = "Zeitüberschreitung";
+
+/* Generic error */
+"An error occured: %1$@" = "Es ist ein Fehler aufgetreten: %1$@";

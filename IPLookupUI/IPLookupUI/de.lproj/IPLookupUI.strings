@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Look Up My IP"; ObjectID = "ABK-Jg-g4r"; */
+"ABK-Jg-g4r.normalTitle" = "Ermittle meine IP";
+
+/* Class = "UINavigationItem"; title = "Your IP"; ObjectID = "k7l-sO-TQ3"; */
+"k7l-sO-TQ3.title" = "Deine IP";
+
+/* Class = "UILabel"; text = "Tap below"; ObjectID = "neB-v0-C8K"; */
+"neB-v0-C8K.text" = "Tippe unten";

@@ -1,0 +1,18 @@
+
+/* Class = "UINavigationItem"; title = "Simulation"; ObjectID = "6zL-TM-PYU"; */
+"6zL-TM-PYU.title" = "Simulation";
+
+/* Class = "UILabel"; text = "IPv4"; ObjectID = "9Fr-aD-Epa"; */
+"9Fr-aD-Epa.text" = "IPv4";
+
+/* Class = "UILabel"; text = "Immediate"; ObjectID = "Zzc-6J-0In"; */
+"Zzc-6J-0In.text" = "Sofort";
+
+/* Class = "UILabel"; text = "Timeout"; ObjectID = "a7w-dv-BJS"; */
+"a7w-dv-BJS.text" = "Zeitüberschreitung";
+
+/* Class = "UILabel"; text = "Alternating"; ObjectID = "gdE-KI-T20"; */
+"gdE-KI-T20.text" = "Abwechselnd";
+
+/* Class = "UILabel"; text = "IPv6"; ObjectID = "tkD-LM-JQ0"; */
+"tkD-LM-JQ0.text" = "IPv6";

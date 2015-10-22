@@ -52,7 +52,7 @@ public class ZContainer {
     }
 }
 
-private class ServiceRegistry: ZContainer, ZRegistry {
+class ServiceRegistry: ZContainer, ZRegistry {
     func register<Service>(factory: () -> Service) {
         let serviceIdentifier = ObjectIdentifier(Service.self)
         registry[serviceIdentifier] = factory

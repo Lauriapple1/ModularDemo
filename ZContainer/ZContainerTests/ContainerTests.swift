@@ -21,15 +21,10 @@ class ContainerTests: XCTestCase {
     override func setUp() {
         super.setUp()
         
-        let registry = ServiceRegistry(check: false)
+        let registry = ZContainer.createRegistry(check: false)
         registry.register { ServiceImplementation() as Service }
         
-        container = registry
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+        container = registry.container()
     }
     
     func testRetrieval() {

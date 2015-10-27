@@ -11,6 +11,8 @@ import Foundation
 /// Service Registry
 public protocol ZRegistry {
     func register<Service>(factory: () -> Service)
+    
+    func container() -> ZContainer
 }
 
 /// Service Locator
@@ -28,11 +30,16 @@ public class ZContainer {
         return sharedRegistry
     }
     
+    /// Create a new service registy.
+    public static func createRegistry(check check: Bool = true) -> ZRegistry {
+        return ServiceRegistry(check: check)
+    }
+    
     // MARK: - Private Properties
     private var registry = [ObjectIdentifier: Any]()
     private let check: Bool
     
-    init(check: Bool = true) {
+    private init(check: Bool = true) {
         self.check = check
     }
     
@@ -52,9 +59,13 @@ public class ZContainer {
     }
 }
 
-class ServiceRegistry: ZContainer, ZRegistry {
+private class ServiceRegistry: ZContainer, ZRegistry {
     func register<Service>(factory: () -> Service) {
         let serviceIdentifier = ObjectIdentifier(Service.self)
         registry[serviceIdentifier] = factory
+    }
+
+    func container() -> ZContainer {
+        return self
     }
 }

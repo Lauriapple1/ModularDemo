@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Sample.playground">
+   </FileRef>
+   <FileRef
+      location = "group:ZContainer.playground">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/eik/Zalando/ModularDemo/ZContainer/ExtendedSample.playground">
+   </FileRef>
+   <FileRef
+      location = "group:ZContainer.xcodeproj">
+   </FileRef>
+</Workspace>
